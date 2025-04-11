@@ -29,7 +29,7 @@ int main( int argc, char * argv[])
 	{
 
 		read( fds[ 0 ], buf, BUF_SIZE );
-
+		puts( buf );
 	}
 
 	return 0;
